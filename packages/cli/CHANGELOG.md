@@ -1,5 +1,11 @@
 # @backstage/cli
 
+## 0.12.1
+
+### Patch Changes
+
+- 10086f5873: Upgraded `webpack`, `webpack-dev-server`,`fork-ts-checker-webpack-plugin`, `react-dev-utils`, and `react-hot-loader`. Since `ForkTsCheckerWebpackPlugin` no longer runs ESLint, we now include the `ESLintPlugin` from `eslint-webpack-plugin` if the `--check` flag is passed.
+
 ## 0.12.0
 
 ### Minor Changes
